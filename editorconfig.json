@@ -1,0 +1,78 @@
+{
+  // show minimap on the side
+  "always_show_minimap_viewport": true,
+  // aid in usability of the file explorer
+  "bold_folder_labels": true,
+  // makes your cursor fade in and out instead of blink
+  "caret_extra_width": 1,
+  "caret_style": "phase",
+  // keep open any empty windows
+  "close_windows_when_empty": false,
+  // kenny's personal color scheme - download package Material Theme
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  // doesn't copy anything if there's nothing selected
+  "copy_with_empty_selection": false,
+  // make it so you can't drag text - sorry Osmar
+  "drag_text": false,
+  // have a border on mini map
+  "draw_minimap_border": true,
+  // disables scrolling for windowed tabs
+  "enable_tab_scrolling": false,
+  // make the bottom find replace smaller
+  "findreplace_small": true,
+  // my favorite font for coding - download it, it's free
+  "font_face": "Source Code Pro",
+  "font_options":
+  [
+    "no_round"
+  ],
+  "font_size": 10,
+  "highlight_line": true,
+  // if you've made changes then it will highlight it
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  // This will turn on highlighting of the active indentation guide as well as the stacked, or parent, indentation guides.
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  // general paddings
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  // plugin to match brackets
+  "match_brackets": true,
+  "match_brackets_angle": true,
+  "match_brackets_braces": true,
+  "match_brackets_content": false,
+  "match_brackets_square": true,
+  // if you have text selected it won't show the others that are the same
+  "match_selection": false,
+  // if you have <div> selected it will highlight other divs, i have this disabled
+  "match_tags": false,
+  // these are material theme options
+  "material_theme_accent_orange": true,
+  "material_theme_small_statusbar": true,
+  // make it tabs
+  "open_files_in_new_window": false,
+  "overlay_scroll_bars": "enabled",
+  // click the file in the file explorer it won't OPEN the file but allow you to look at it
+  "preview_on_click": true,
+  // scroll past the end of your file so your code isn't at the bottom of the page (doing it right now) and I LOVE IT
+  "scroll_past_end": true,
+  "scroll_speed": 5.0,
+  "show_full_path": false,
+  // tab size is two per our code guide
+  "tab_size": 2,
+  // theme Material Theme - Darker
+  "theme": "Material-Theme-Darker.sublime-theme",
+  // make them spaces per our Material Theme
+  "translate_tabs_to_spaces": true,
+  // can't leave extra spaces!
+  "trim_trailing_white_space_on_save": true,
+  // DIE WORD WRAP! (this setting can be toggled through your View menu)
+  "word_wrap": false,
+}
