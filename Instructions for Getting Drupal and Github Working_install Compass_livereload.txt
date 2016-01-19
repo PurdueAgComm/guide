@@ -1,0 +1,37 @@
+Instructions for Getting Drupal and Github Working
+
+1) Create site "Agriculture" in Acquia Dev Desktop (in dev desktop, don't click the "Local site" link yet)
+2) Navigate to "Agriculture" and cut out all files into a temporary file
+3) Github Clone Agriculture into "/DevDesktop" Folder
+4) Paste Cut Files Back in, merging folders and replacing files when prompted
+
+    don't move
+        .gitignore
+
+    move and replace:
+         PATCHES.txt
+         example.sites.php
+         README.txt
+         sites.php
+
+     merge all folders
+
+5) Open site in Acquia
+
+
+Instructions for Installing Compass/sass with Ruby
+!) Sync GitHub
+
+1) Install Ruby using Ruby Installer
+2) Check top two boxes during install (Install Tcl/TK suppport & Add Ruby executables to your PATH)
+3) Once installed open up CMD line
+4) run "gem update system"
+5) run "gem install compass"
+
+To have compass compile your files you need to have compass watch the directory that your .scss files are in.
+you can also use sass install and sass watch but compass has other features (learn about setting up sass here: http://www.impressivewebs.com/sass-on-windows/).
+
+1) Change Dir to your folder: ex(cd C:\Users\OLOPEZ\Sites\devdesktop\Agriculture\sites\all\themes\purduebootsass\)
+2) "compass watch"
+3) Alternatively you can create a .bat file to do this
+
