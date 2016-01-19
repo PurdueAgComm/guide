@@ -43,6 +43,7 @@
       <li><a href="#html-attribute-order">Attribute order</a></li>
       <li><a href="#html-boolean-attributes">Boolean attributes</a></li>
       <li><a href="#html-reducing-markup">Reducing markup</a></li>
+      <li><a href="#html-comments">Comments</a></li>
       <li><a href="#html-javascript">JavaScript generated markup</a></li>
     </ul>
   </div>
@@ -257,6 +258,29 @@
 
 <span class="c">&lt;!-- Better --&gt;</span>
 <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">&quot;avatar&quot;</span> <span class="na">src=</span><span class="s">&quot;...&quot;</span><span class="nt">&gt;</span></code></pre></div>
+  </div>
+</div>
+
+
+<div class="section" id="html-comments">
+  <div class="col">
+    <h3>Comments</h3>
+    <p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
+    <p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
+    <p>If you are creating HTML with complex nesting, comment the closing <code>div</code> to the respective <code>class</code> or <code>ID</code>.
+  </div>
+  <div class="col">
+    <div class="highlight"><pre><code class="language-css" data-lang="css">
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-lg-8&quot;</span><span class="nt">&gt;</span>
+        <span class="s">...</span>
+      <span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- ./col-lg-8 &gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-lg-4&quot;</span><span class="nt">&gt;</span>
+        <span class="s">...</span>
+      <span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- ./col-lg-4 &gt;</span>
+    <span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- ./row &gt;</span>
+    </code></pre>
+</div>
   </div>
 </div>
 
@@ -565,6 +589,7 @@
 <span class="p">}</span></code></pre></div>
   </div>
 </div>
+
 
 <div class="section" id="css-classes">
   <div class="col">
